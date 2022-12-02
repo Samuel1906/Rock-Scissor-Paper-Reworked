@@ -1,0 +1,61 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-style: italic;
+}
+
+.bg {
+    background-image: url("images/gameBackground.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+h1 {
+    margin: 0;
+    text-shadow: 2px 2px 8px black;
+    font-size: 80px;
+}
+img {
+    height: 200px;
+    width: 200px;
+    padding: 50px;
+
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+button {
+    border-radius: 50%;
+    box-shadow: 2px 2px 8px black;
+}
+#result {
+    display: flex;
+    justify-content: space-evenly;
+}
+#result p {
+    font-size: 30px;
+    text-shadow: 2px 2px 8px black;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+.restartButton {
+    padding: 6px 40px;
+    border-radius: 70%;
+    color: white;
+    background-color: black;
+    box-shadow: 2px 2px 8px whitesmoke;
+}
+
+.restartButton:hover {
+    
+    transform: scale(1.2);
+}

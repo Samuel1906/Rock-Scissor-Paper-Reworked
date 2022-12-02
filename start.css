@@ -26,4 +26,18 @@ h1 {
 p {
     font-weight: bolder;
     text-shadow: 2px 2px 8px whitesmoke;
+    font-size: 20px;
+}
+
+.start-button {
+    padding: 6px 40px;
+    border-radius: 70%;
+    color: white;
+    background-color: black;
+    box-shadow: 2px 2px 8px whitesmoke;
+    
+    
+}
+.start-button:hover {
+    transform: scale(1.2);
 }

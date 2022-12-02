@@ -5,17 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissor</title>
-    <link rel="stylesheet" href="start.css">
-    <script src="start.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="game.js" defer></script>
 </head>
 <body>
-    <h1>Rock Paper Scissor</h1>
-    <p>Welcome to Rock Paper Scissor Game!</p>
-    <p>Press the Start Button when you want to start!</p>
-    <div class="container">
-        <a href="index.html">
-            <button class="Start-button">End Game</button>
-        </a>
+    <div class="bg">
+        <h1>Rock Paper Scissor</h1>
+        <div class="container">
+            <button value="paper"><img src="images/paper.png" width="200px" height= "200px"></button>
+            <button value="scissors"><img src="images/scissors.png" width="200px" height= "200px"></button>
+            <button value="rock"><img src="images/rock.png" width="200px" height= "200px"></button>
+        </div>
+        <div id="result">
+        </div>
+        <div id="restart"></div>
     </div>
 </body>
 </html>
