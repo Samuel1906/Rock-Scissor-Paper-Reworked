@@ -1,0 +1,29 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-style: italic;
+}
+
+.bg {
+    background-image: url("images/indexBackground.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+h1 {
+    margin: 0;
+    text-shadow: 2px 2px 8px whitesmoke;
+    font-size: 80px;
+    
+    
+}
+
+p {
+    font-weight: bolder;
+    text-shadow: 2px 2px 8px whitesmoke;
+}
